@@ -17,7 +17,7 @@ const BookList = (props) => {
             </ul>
         </div>
     ) : (
-        <div classname="empty" style={{margin: "20px", textAlign: "center", paddingBottom: "20px"}}> 
+        <div style={{margin: "20px", textAlign: "center", paddingBottom: "20px"}}> 
             Your collection for book is empty now
         </div>
     )
